@@ -1,0 +1,423 @@
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	cursor: default;
+}
+
+.ch-info-wrap{ /*possible place for square this is for ch-info-wrap the 1st one 00, 02,05,07,08,10*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 50%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/bg.jpg); /*this is the shadow*/
+	box-shadow: 
+		0 0 0 10px rgba(255,255,255,0.2), 
+		inset 0 0 2px rgba(115,114, 23, 0.8);
+
+		/*0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+
+/*ch-info-wrap01*/ /*left off here*/
+
+.ch-info-wrap01 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/kellygreen.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+/*end of ch-info-wrap01*/
+
+.ch-info-wrap01:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+
+
+.ch-info-wrap03 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/medblue.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+/*end of ch-info-wrap03*/
+
+
+
+/*end of ch-info-wrap03*/
+
+.ch-info-wrap04 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/drkpurple.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+/*end of ch-info-wrap04*/
+
+.ch-info-wrap04:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+
+
+.ch-info-wrap06 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/lblue.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+
+/*end of ch-info-wrap06*/
+
+.ch-info-wrap06:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+
+
+.ch-info-wrap09 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/byellow.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+/*end of ch-info-wrap09*/
+
+.ch-info-wrap09:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+
+
+.ch-info-wrap11 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/kellygreen.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+
+.ch-info-wrap11:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+/*end of ch-info-wrap11*/
+
+
+.ch-info{
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 50%; /*for a circle*/
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+		
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	text-align: center;
+}
+
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%; /*inner circle*/
+	background-position: center center;
+
+	-webkit-backface-visibility: hidden; 
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.ch-info .ch-info-back {
+	-webkit-transform: rotate3d(0,1,0,180deg);
+	-moz-transform: rotate3d(0,1,0,180deg);
+	-o-transform: rotate3d(0,1,0,180deg);
+	-ms-transform: rotate3d(0,1,0,180deg);
+	transform: rotate3d(0,1,0,180deg);
+	
+	background: #3399ff; /*#434343;*/ /*changes color of back circles*/
+}
+
+/*homepage index.html*/
+
+.ch-img-1 { 
+	background-image: url(../images/avatar02.jpg);
+}
+
+.ch-img-2 { 
+	background-image: url(../images/trivia.jpg);
+}
+
+.ch-img-3 { 
+	background-image: url(../images/kidsportal03.jpg);
+}
+
+.ch-img-4 { 
+	background-image: url(../images/parent.jpg);
+}
+
+.ch-img-5 { 
+	background-image: url(../images/writing.jpg);
+}
+
+.ch-img-6 { 
+	background-image: url(../images/reading.jpg);
+}
+
+.ch-img-7 { 
+	background-image: url(../images/bn.jpg);
+}
+
+.ch-img-8 { 
+	background-image: url(../images/science.jpg);
+}
+
+.ch-img-9 { 
+	background-image: url(../images/math.jpg);
+}
+
+.ch-img-10 { 
+	background-image: url(../images/art.jpg);
+}
+
+.ch-img-11 { 
+	background-image: url(../images/music.jpg);
+}
+
+.ch-img-12{ 
+	background-image: url(../images/spelling.jpg);
+}
+
+
+/*end of homepage*/
+
+/*Reading reading.html*/
+
+
+.ch-img-13 { 
+	background-image: url(../images/bn.jpg); /*bluenoodle*/
+}
+
+.ch-img-14 { 
+	background-image: url(../images/bn.jpg); /*game1*/
+}
+
+.ch-img-15 { 
+	background-image: url(../images/bn.jpg); /*game2*/
+}
+
+.ch-img-16 { 
+	background-image: url(../images/bn.jpg); /*game 3*/
+}
+
+.ch-img-17 { 
+	background-image: url(../images/bn.jpg);
+}
+
+.ch-img-18 { 
+	background-image: url(../images/bn.jpg);
+}
+
+.ch-img-19 { 
+	background-image: url(../images/bn.jpg);
+}
+
+.ch-img-20 { 
+	background-image: url(../images/bn.jpg);
+}
+
+.ch-img-21 { 
+	background-image: url(../images/bn.jpg);
+}
+
+
+/*end ofreadingpage*/
+
+
+.ch-info h3 {  /*h3 inside circle*/
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 26px;
+	letter-spacing: .2em;
+	font-size: 20px;
+	padding: 40px 30px 0 30px;
+	font-family: 'Unkempt', cursive;
+	font-weight: normal;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+
+
+.ch-item:hover .ch-info-wrap { /*this take a way the blue when it turns*/
+	box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+		
+}
+
+.ch-item:hover .ch-info {
+	-webkit-transform: rotate3d(0,1,0,-180deg);
+	-moz-transform: rotate3d(0,1,0,-180deg);
+	-o-transform: rotate3d(0,1,0,-180deg);
+	-ms-transform: rotate3d(0,1,0,-180deg);
+	transform: rotate3d(0,1,0,-180deg);
+}
+
+.ch-info-back nav a{ /*back of circle link text*/
+	margin-bottom: 10px; 
+	font-size: 18px;
+	line-height: 18px;
+	letter-spacing: .1em;
+	
+}
