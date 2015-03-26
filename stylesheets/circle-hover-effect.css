@@ -344,11 +344,11 @@ background: #f9f9f9 url(../images/medblue.jpg);
 
 
 .ch-img-13 { 
-	background-image: url(../images/bn.jpg); /*bluenoodle*/
+	background-image: url(../images/bluenoodle.jpg); /*bluenoodle*/
 }
 
 .ch-img-14 { 
-	background-image: url(../images/bn.jpg); /*game1*/
+	background-image: url(../images/.jpg); /*game1*/
 }
 
 .ch-img-15 { 
@@ -381,6 +381,22 @@ background: #f9f9f9 url(../images/medblue.jpg);
 
 
 /*end ofreadingpage*/
+
+/*landing page ads*/
+
+.ch-img-22 { 
+	background-image: url(../images/offer.jpg);
+}
+
+.ch-img-23 { 
+	background-image: url(../images/safe.jpg);
+}
+
+.ch-img-24 { 
+	background-image: url(../images/grade.jpg);
+}
+
+/*end of landing page ads*/
 
 
 .ch-info h3 {  /*h3 inside circle*/
