@@ -235,12 +235,90 @@ background: #f9f9f9 url(../images/medblue.jpg);
 
 }
 
+
 .ch-info-wrap11:hover{
 background: #f9f9f9 url(../images/medblue.jpg);
 	
 }
-/*end of ch-info-wrap11*/
 
+
+
+
+/*art page square background*/
+
+.ch-info-wrap011 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #cc66ff url(../images/orange.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+
+
+
+.ch-info-wrap011:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+/*end of art page - art game 11 ch-info-wrap011*/
+
+/*art subject circle -art page*/
+
+.ch-info-wrap12 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #663399 url(../images/drkpurple.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+
+
+
+.ch-info-wrap12:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+/*end of art circle/square page ch-info-wrap011*/
+
+/*circle*/
 
 .ch-info{
 	position: absolute;
@@ -286,6 +364,7 @@ background: #f9f9f9 url(../images/medblue.jpg);
 	
 	background: #3399ff; /*#434343;*/ /*changes color of back circles*/
 }
+
 
 /*homepage index.html*/
 
@@ -398,7 +477,99 @@ background: #f9f9f9 url(../images/medblue.jpg);
 
 /*end of landing page ads*/
 
+/*art pages*/
 
+.ch-img-01 { 
+	background-image: url(../images/art01.jpg);
+}
+
+.ch-img-02 { 
+	background-image: url(../images/art02.jpg);
+}
+
+.ch-img-03 { 
+	background-image: url(../images/art03.jpg);
+}
+
+.ch-img-04 { 
+	background-image: url(../images/art04.jpg);
+}
+
+.ch-img-05{ 
+	background-image: url(../images/art05.jpg);
+}
+
+.ch-img-06 { 
+	background-image: url(../images/art06.jpg);
+}
+
+.ch-img-07 { 
+	background-image: url(../images/art07.jpg);
+}
+
+.ch-img-08 { 
+	background-image: url(../images/art08.jpg);
+}
+
+.ch-img-09{ 
+	background-image: url(../images/art09.jpg);
+}
+
+.ch-img-010 { 
+	background-image: url(../images/art10.jpg);
+}
+
+
+/*end of art pages*/
+
+/*my portal page */
+
+.ch-img-p01{ 
+	background-image: url(../images/treasure.jpg);
+}
+
+.ch-img-p02{ 
+	background-image: url(../images/p2.jpg);
+}
+
+.ch-img-p03{ 
+	background-image: url(../images/p3.jpg);
+}
+
+.ch-img-p04{ 
+	background-image: url(../images/p4.jpg);
+}
+
+.ch-img-p05{ 
+	background-image: url(../images/p5.jpg);
+}
+
+.ch-img-p06{ 
+	background-image: url(../images/p6.jpg);
+}
+
+.ch-img-p07{ 
+	background-image: url(../images/p7.jpg);
+}
+
+.ch-img-p08{ 
+	background-image: url(../images/p8.jpg);
+}
+
+.ch-img-p09{ 
+	background-image: url(../images/p9.jpg);
+}
+
+
+/*end of my portal page circles*/
+
+/*kids portal*/
+
+.ch-img-kp13 { 
+	background-image: url(../images/bluenoodle.jpg); /*bluenoodle*/
+}
+
+  
 .ch-info h3 {  /*h3 inside circle*/
 	color: #fff;
 	text-transform: uppercase;
