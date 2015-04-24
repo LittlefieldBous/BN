@@ -803,8 +803,8 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
-  height: 20px;
-  padding: 4px 6px;
+  /*height: 20px;
+  padding: 4px 6px;*/
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 20px;
@@ -817,7 +817,7 @@ input[type="color"],
 input,
 textarea,
 .uneditable-input {
-  width: 206px; }
+  /*width: 206px;*/ }
 
 textarea {
   height: auto; }
@@ -4837,10 +4837,10 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   background-color: transparent;
   border: 0; }
 
-.input-block-level {
+/*.input-block-level {
   display: block;
   width: 100%;
   min-height: 30px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box; }*/

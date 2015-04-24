@@ -44,59 +44,54 @@ function playSound(soundfile) {
 
   </head>
   
-  <body id="top-section"> <!--taken out of template data-spy="scroll" data-target="navbar"-->
-    
-    <!--<div class="navbar navbar-inverse navbar-fixed-top">-->
-    <div id="topnav">
+  <body id="top-section"> 
+  
+      <div id="topnav">
     <div class="container">
+    
     <div class="nav-collapse collapse pull-right">
     		<p><a href="logout.html"><img src="images/logout.png" alt="logout button"></a></p>
     </div> <!--nav-collapse-->
 
-        <a class="brand" href="#top-section"><img src="images/logo.png" alt=""></a>
+        <a class="brand" href="#top-section"><img src="images/logo.png" alt="logo"></a>
      
- <header>
      	<div class="titlebn">
           <h1>Blue Noodle - Play and Learn!</h1>
 		  <h3> Interactive Learning Curriculum for the 21st Century Child</h3>
-		 </div> <!--container-->
-      </div> <!--topnav-->
-      	
-		<div class="container">
+		 </div>    	
+		
 			<div class="row">
 				<div class="span12 title">
 				<div id="bheader">
-				<!--<img src="images/ban.gif"/>-->
-				<img src="images/myportalh.jpg"/>
+				<img src="images/myportalh.jpg" alt="myportal page header"/>
 				</div> <!--end of bheader id-->
 				</div> <!--end of span12 title-->
 			</div><!--end row -->
- </header> <!--end of header-->
  
- 
- <section> <!--circle subjects begin-->
+			<!--circle subjects begin-->
 			<div class="fixed">
 			<div id="container-folio" class="row portfolio">
 					<ul class="unstyled"> <!--beginning of list of circles-->
+					
 					<li> <!--places each circle in a list-->
 					 <div class="span3 coding project-item box">
 						<div class="ch-item">
 							<div class="ch-border">
 							<div class="ch-info-wrap">
 							<div class="ch-info">
-							<div class="ch-info-front ch-img-1"></div> <!image on front of circle-->
+							<div class="ch-info-front ch-img-1"></div> <!--image on front of circle-->
 								<div class="ch-info-back">
-								 <h3>My Portal</h3>
+								 <h3>Change Avatar</h3>
 						<span id="dummy"></span>
-						<nav><a href="myportal.html">Click to Enter</a></nav>
-					<nav><a onclick="playSound('audio/dinobird.mp3');"><img src="images/listen.png" alt=""></a></nav>
+						<nav><a href="avatar.html">Create an Avatar</a></nav>
+			<nav><a onclick="playSound('audio/dinobird.mp3');"><img src="images/listen.png" alt="dinobird sound"></a></nav>
 								   </div> <!--end of .ch-info-back-->	
 								</div> 	<!--end of ch-info-->
 							</div> <!--end of ch-info-wrap-->
 							</div> <!--end of ch-border-->
 						</div> <!--end of ch-item-->
-					</div><!-- end div coding project-item box item1-00 -->
-				</li><!--end of circle item1-00-->
+					</div>  <!--end div coding project-item box item-->
+				</li>  <!--end of circle item1-00-->
 					
 					<li> <!--begin circle item2-01-->
 					<div class="span3 coding project-item box">
@@ -107,17 +102,16 @@ function playSound(soundfile) {
 									<div class="ch-info-front ch-img-p01"></div>
 									<div class="ch-info-back">
 										<h3>Treasure Box</h3>
-										<span id="dummy"></span>
-										<!--TRivia..could record-->
-			<nav><a href="#">Click to Enter</a></nav>
-									</div>
-								</div>
-							</div>
-							</div>
-						</div>
-					</li> <!--end of circle2--->
-					
-					<li>
+			                  <nav><a href="#">Click to Enter</a></nav>
+								  </div> <!--end of .ch-info-back-->	
+								</div> 	<!--end of ch-info-->
+							</div> <!--end of ch-info-wrap-->
+							</div> <!--end of ch-border-->
+						</div> <!--end of ch-item-->
+					</div>  <!--end div coding project-item box item-->
+				</li>  <!--end of circle item1-00-->
+									
+				<li>
 					<div class="span3 coding project-item box">
 						<div class="ch-item">
 							<div class="ch-border">
@@ -126,11 +120,10 @@ function playSound(soundfile) {
 									<div class="ch-info-front ch-img-3"></div>
 									<div class="ch-info-back">
 										<h3>Kids Portal</h3>
-										<span id="dummy"></span>
-							<nav><a href="#">Click to Enter</a></nav>
-							<nav><a onclick="playSound('audio/tada_01.mp3');"><img src="images/listen.png" alt=""></a></nav>											</div>
+						<nav><a href="kidsportal.php">Click to Enter</a></nav>
+			<nav><a onclick="playSound('audio/tada_01.mp3');"><img src="images/listen.png" alt="tada sound"></a></nav>											</div>
+									</div>
 								</div>
-							</div>
 							</div>
 						</div>
 					</div>
@@ -145,16 +138,15 @@ function playSound(soundfile) {
 									<div class="ch-info-front ch-img-13"></div>
 									<div class="ch-info-back">
 										<h3>Blue Noodle Portal</h3>
-											<span id="dummy"></span>
-					<nav><a href="index.php">Click to Enter</a></nav>
-				<nav><a onclick="playSound('audio/door.mp3');"><img src="images/listen.png" alt=""></a></nav>	
+					<nav><a href="main.php">Click to Enter</a></nav>
+				<nav><a onclick="playSound('audio/door.mp3');"><img src="images/listen.png" alt="door sound"></a></nav>	
 									</div>
 								</div>
 							</div>
 							</div>
 						</div>
 					</div>
-				    </li> <!-- end circle img04 -->
+				   </li> <!-- end circle img04 -->
 	
 					<li>
 					<div class="span3 coding project-item box">
@@ -165,8 +157,7 @@ function playSound(soundfile) {
 									<div class="ch-info-front ch-img-p02"></div>
 									<div class="ch-info-back">
 										<h3>My Favorites</h3>
-										<span id="dummy"></span>
-				<nav><a onclick="playSound('audio/cricket.mp3');"><img src="images/listen.png" alt=""></a></nav>	
+		<nav><a onclick="playSound('audio/cricket.mp3');"><img src="images/listen.png" alt="cricket sound"></a></nav>	
 									</div>	
 								</div>
 							</div>
@@ -183,12 +174,11 @@ function playSound(soundfile) {
 								<div class="ch-info">
 									<div class="ch-info-front ch-img-p03"></div>
 									<div class="ch-info-back">
-										<h3>Favorite One/h3>
-										<span id="dummy"></span>
-							<nav><a href="reading.html">Click to Enter</a></nav>	
-							<nav><a onclick="playSound('audio/lion.mp3');"><img src="images/listen.png" alt=""></a></nav>									</div>
+										<h3>Favorite One</h3>
+					<nav><a href="reading.html">Click to Enter</a></nav>	
+			<nav><a onclick="playSound('audio/lion.mp3');"><img src="images/listen.png" alt="lion sound"></a></nav>									       </div>
 								</div>
-							</div>
+							   </div>
 							</div>
 						</div>
 					</div>
@@ -203,9 +193,8 @@ function playSound(soundfile) {
 									<div class="ch-info-front ch-img-p04"></div>
 									<div class="ch-info-back">
 										<h3>Favorite Two</h3>
-										<span id="dummy"></span>
-							<nav><a href="#">Click to Enter</a></nav>
-							<nav><a onclick="playSound('audio/door.mp3');"><img src="images/listen.png" alt=""></a></nav>										</div>
+					<nav><a href="#">Click to Enter</a></nav>
+			<nav><a onclick="playSound('audio/door.mp3');"><img src="images/listen.png" alt="door sound"></a></nav>										</div>
 								</div>
 							</div>
 							</div>
@@ -222,9 +211,8 @@ function playSound(soundfile) {
 									<div class="ch-info-front ch-img-p05"></div>
 									<div class="ch-info-back">
 										<h3>Favorite Three</h3>
-										<span id="dummy"></span>
-						<nav><a href="science.html">Click to Enter</a></nav>
-						<nav><a onclick="playSound('audio/pop_01.mp3');"><img src="images/listen.png" alt=""></a></nav>	
+					<nav><a href="science.html">Click to Enter</a></nav>
+					<nav><a onclick="playSound('audio/pop_01.mp3');"><img src="images/listen.png" alt="pop sound"></a></nav>	
 									</div>
 								</div>
 							</div>
@@ -242,14 +230,14 @@ function playSound(soundfile) {
 									<div class="ch-info-front ch-img-p06"></div>
 									<div class="ch-info-back">
 										<h3>My Folder</h3>
-				<nav><a onclick="playSound('audio/roost2.mp3');"><img src="images/listen.png" alt=""></a></nav>
+			<nav><a onclick="playSound('audio/roost2.mp3');"><img src="images/listen.png" alt="rooster sound"></a></nav>
 									</div>
 								</div>
 							</div>
-							</div>
 						</div>
 					</div>
-					</li> <!-- end circle9 -->
+				</div>
+			</li> <!-- end circle9 -->
 
 					<li>
 					<div class="span3 coding project-item box">
@@ -262,15 +250,15 @@ function playSound(soundfile) {
 										<h3>Bug Story</h3>
 										<!--put in link to story-->
 						<nav><a href="#">Click Here!</a></nav>
-						<nav><a onclick="playSound('audio/spin.mp3');"><img src="images/listen.png" alt=""></a></nav>									</div>
+						<nav><a onclick="playSound('audio/spin.mp3');"><img src="images/listen.png" alt="spin sound"></a></nav>									  </div>
 								</div>
-							</div>
+							  </div>
 							</div>
 						</div>
 					</div>
 					</li> <!-- end circle10 -->
 
-					<li>
+				<li>
 					<div class="span3 coding project-item box">
 						<div class="ch-item">
 						  <div class="ch-border">
@@ -280,7 +268,7 @@ function playSound(soundfile) {
 									<div class="ch-info-back">
 										<h3>My Characters</h3>
 					<nav><a href="music.html">Click Here!</a></nav>
-					<nav><a onclick="playSound('audio/pop_01.mp3');"><img src="images/listen.png" alt=""></a></nav>										       </div>
+			<nav><a onclick="playSound('audio/pop_01.mp3');"><img src="images/listen.png" alt="pop sound"></a></nav>										 </div>
 								</div>
 							</div>
 						 </div>
@@ -297,23 +285,24 @@ function playSound(soundfile) {
 									<div class="ch-info-front ch-img-p09"></div>
 									<div class="ch-info-back">
 										<h3>My Atom</h3>
-			<nav><a href="spelling.html">Click Here!</a></nav>
-		 	<nav><a onclick="playSound('audio/crunch_01.mp3');"><img src="images/listen.png" alt=""></a></nav>
-		 						</div> <!--end of ch-info-back-->
-							</div> <!--end of ch info--->
-						  </div> <!end of ch-info-wrap11-->
-						</div> <!--end of ch-border-->
-						
-					</div><!-- end ch-item -->
-					</div> <!--end of box-->
-					
-					</li> <!--end of li from circle section-->
-					</ul> <!--end of circle lists-->					
+			<nav><a href="science.html">Click Here!</a></nav>
+		 	<nav><a onclick="playSound('audio/crunch_01.mp3');"><img src="images/listen.png" alt="crunch sound"></a></nav>
+		 					  			</div> <!--end of .ch-info-back-->	
+		 					  		</div> 	<!--end of ch-info-->
+								</div> <!--end of ch-info-wrap-->
+							</div> <!--end of ch-border-->
+						</div> <!--end of ch-item-->
+					</div>  <!--end div coding project-item box item-->
+				</li>  <!--end of circle item1-00-->
+				
+				</ul> <!--end of circle lists-->					
 			</div> <!--end of fixed-->
 		</div> <!--end of container folio-->
-    </section> <!--end circle subject (called work from template) section -->
 	
-	<footer>
+	</div> <!--top nav-->
+	</div> <!--container-->	
+		
+  	<footer>
 	<div class="span12 footer">
 		 <div class="links">
 			<p><a href="#">| About </a></p>
@@ -325,45 +314,32 @@ function playSound(soundfile) {
 		</div>
 	
 	
-		 </br>
-		 </br>
+		 <br>
+		 <br>
 		  <p><a href="#">&copy; bluenoodle.org</a></p>	
 	   </div>
 	</footer>
 					
-					
-	<!--<section>
-	<footer>
-		<p>&copy; MMXIII Circle. All right reserved. Theme by <a href="http://www.frequencythemes.com/" target="_blank">Frequency Themes</a></p>
-	</footer>
-	</section>-->
 	
-    <!-- Le javascript
+    <!-- javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script-carousel-ie.js" type="text/javascript"></script>
-      <script src="js/custom.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
    
 
 <!--added js files-->
 
-
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-
 <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
-<!-- plugins -->
-<!-- main -->
 
 <!--for animation tags-->
 <script type="text/javascript" src="js/Animate.js"></script>
 <!--audio-->
 
  
-
-
 
   </body>
 </html>

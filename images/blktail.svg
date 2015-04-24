@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="126.043px" height="120.281px" viewBox="0 0 126.043 120.281" enable-background="new 0 0 126.043 120.281"
+	 xml:space="preserve">
+<pattern  x="-36.478" y="160.641" width="132.126" height="130.076" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="0 -130.076 132.126 130.076" overflow="visible">
+	<g>
+		<polygon fill="none" points="0,0 132.126,0 132.126,-130.076 0,-130.076 		"/>
+		<g>
+			<polygon fill="none" points="0,-130.076 132.126,-130.076 132.126,0 0,0 			"/>
+			<polygon fill="#231F20" points="0,-129.948 0.125,-1.264 132.125,-1.391 132,-130.076 			"/>
+			<polygon fill="#FFFFFF" points="0.07,-58 0.102,-24.618 132.102,-24.746 132.069,-58.128 			"/>
+			<polygon fill="#808184" points="0.082,-45.112 0.126,0 132.126,-0.128 132.082,-45.24 			"/>
+		</g>
+	</g>
+</pattern>
+<pattern  id="SVGID_2_" xlink:href="#SVGID_1_" patternTransform="matrix(0.3014 0.4105 0.4079 -0.3374 -11099.8184 -5555.4966)">
+</pattern>
+<path fill="url(#SVGID_2_)" d="M0,118.163c0,0-0.051-41.347,30.286-70.592c3.41-3.286,13.62-12.074,18.364-16.137
+	C59.553,22.102,83.917,5.827,126.013,0c0,0,2.612,42.992-39.832,86.236C86.181,86.236,40.378,130.312,0,118.163z"/>
+</svg>

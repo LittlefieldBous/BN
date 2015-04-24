@@ -565,10 +565,31 @@ background: #f9f9f9 url(../images/medblue.jpg);
 
 /*kids portal*/
 
-.ch-img-kp13 { 
-	background-image: url(../images/bluenoodle.jpg); /*bluenoodle*/
+
+.ch-img-k00{ 
+	background-image: url(../images/bnc.jpg); /*bluenoodle challenge*/
 }
 
+
+.ch-img-k01{ 
+	background-image: url(../images/rac01.jpg); /*racoon*/
+}
+
+.ch-img-k02{ 
+	background-image: url(../images/owl.jpg); /*owl*/
+}
+
+.ch-img-k03{ 
+	background-image: url(../images/bat.jpg); /*batsl*/
+}
+
+.ch-img-k04{ 
+	background-image: url(../images/po.jpg); /*opossum*/
+}
+
+
+
+/*end of kids portal*/
   
 .ch-info h3 {  /*h3 inside circle*/
 	color: #fff;

@@ -25,18 +25,286 @@ body {
 
 .center {
   text-align: center; }
+ 
+ /*shopping cart*/
+ 
+ .products {
+	width: 100%;	
+}
+
+
+
+
+.product .product-thumb {
+	height: auto;
+	width: 100%;
+	margin: 0;
+	
+}
+
+
+.product .product-info input[type="text"]{
+	margin:1px;
+	padding: 1px;
+}
+
+.shopping-cart{
+float:left;
+	background:#ffff99;
+	padding-top: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;	
+	border: 6px solid #ffff33;
+	border-radius: 5px;
+	margin-left: 20px;
+	width:20%;
+	/*text-align: center;*/
+	font-family:'Lato', sans-serif;
+	color: #0000cc;
+
+}
+
+.shopping-cart  h4{
+font-family: 'Unkempt', cursive;
+
+	
+}
+
+.shopping-cart  h3{
+font-family: 'Unkempt', cursive;
+font-size:20px;
+text-align: center;
+
+	
+}
+
+.shopping-cart ol{
+	padding: 1px 0px 0px 15px;
+}
+
+
+/*shopping cart add_to_cart button*/
+
+.add_to_cart {
+   border-top: 1px solid #3399ff;
+   background: #0000cc;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3399ff), to(#0000cc));
+   background: -webkit-linear-gradient(top, #3399ff, #0000cc);
+   background: -moz-linear-gradient(top, #3399ff, #0000cc);
+   background: -ms-linear-gradient(top, #3399ff, #0000cc);
+   background: -o-linear-gradient(top, #3399ff, #0000cc);
+   padding: 6.5px 13px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family:'Lato', sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-top: 10px;
+   }
+   
+   
+.add_to_cart:hover {
+   border-top-color: #3399ff;
+   background: #3399ff;
+   color: #3399ff;
+   }
+   
+.add_to_cart:active {
+   border-top-color: #3399ff;
+   background: #3399ff;
+   }
+   
+   
+   /*hr tag*/
+   
+   hr {
+	   padding:0;
+	   border: none;
+	   border-top:medium double #fff;
+	   color:#fff;
+	   text-align: center;
+   }
+   
+   /*shopping cart view page*/
+   
+   .shopping-cart .view-cart h3 {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+.shopping-cart ol{
+	padding: 1px 0px 0px 15px;
+	
+}
+
+.shopping-cart .cart-itm, .view-cart .cart-itm{
+	border-bottom: 1px solid #3399ff;
+	font-size: 12px;
+	font-family: arial;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+
+.shopping-cart .remove-itm, .view-cart .remove-itm{
+	font-size: 14px;
+	float: right;
+	background: #ff9933;
+	padding: 4px;
+	line-height: 8px;
+	border-radius: 3px;
+	
+}
+.shopping-cart .remove-itm:hover, .view-cart .remove-itm:hover{
+	background: #ffcc66;
+}
+.shopping-cart .remove-itm a, .view-cart .remove-itm a{
+	color: #000000;
+	text-shadow: 1px 1px 1px #ECECEC;
+	text-decoration:none;
+}
+
+.check-out-txt{
+	float:left;
+	margin-left: 20px;
+}
+
+.cart-itm{
+	float:left;
+}
+
+/*buy button*/
+
+
+.empty{
+	margin-top: 40%;
+	font-size: 26px;
+	text-align: center;
+	width:440px;
+}
+
+ .buy {
+   border-top: 1px solid #3399ff;
+   background: #3399ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3399ff), to(#0000cc));
+   background: -webkit-linear-gradient(top, #3399ff, #0000cc);
+   background: -moz-linear-gradient(top, #3399ff, #0000cc);
+   background: -ms-linear-gradient(top, #3399ff, #0000cc);
+   background: -o-linear-gradient(top, #3399ff, #0000cc);
+   padding: 6.5px 13px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family:'Lato', sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-top: 8px;
+   margin-right: 10px;
+   margin-bottom: 5px;
+   }
+   
+.buy:hover {
+	 background: #009933;
+}
+   
+.buy:active {
+   background: #3399ff;
+   }
+   
+
+#cart h1 {
+	margin-left: 35%;
+	
+}
+
+
+
+/*circle code*/
+ .view-cart{
+ 	width: 440px;
+    height: 440px;
+    background-color: #ffff99;
+    border: solid 10px #ffff33;
+    border-radius: 50%;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    margin-top: 30px;
+    padding-top:10px;
+    padding-left: 10px;
+	text-align: center;
+    z-index: 1;
+    color:#333333;
+    margin-left: 25%;
+ }
+ 
+ 
+
+.view-cart .p-price{
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 280px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.view-cart .remove-itm{
+	float:left;
+	margin-left: 30px;
+	
+}
+
+
+.view-cart .product-info{
+width:30%;
+
+}
   
+#products-wrapper h1{
+	margin-left: 30px;
+}
+ 
+  /*end of shopping cart*/ 
   
   .titlebn{
   float:right;
-  margin-top: -100px;
-  margin-left: 150px;
+  margin-top: -105px;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  position:absolute;  
+  }
+  
+  .titlebn2{
+  float:right;
+  margin-top: -90px;
+  margin-left: 15%;
   margin-bottom: 20px;
   position:absolute;  
   }
  
  #bn{
  z-index:1
+	 
+ }
+ 
+ .name{
+	 margin-top:10px;
+	 margin-left: 5px;
+	 font-size:20px;
 	 
  }
  
@@ -53,6 +321,8 @@ body {
   margin-bottom: 10px;
   z-index: -10;    	
  } 
+ 
+
 
 input[type="submit"]{ /*makes it into a circle*/
     width: 120px;
@@ -60,7 +330,7 @@ input[type="submit"]{ /*makes it into a circle*/
     background-color: #000;
     border: solid 8px #99cc33;
     border-radius: 50%;
-    color: #000000;
+    color: #fdfdfd;
     font-family: 'Unkempt', cursive;
     font-size: 20px;
     margin-top: 10px;
@@ -70,6 +340,306 @@ input[type="submit"]{ /*makes it into a circle*/
 .btn input[type="submit"]{
  border: solid 7px #ffcc66;
  }
+ 
+ /*parent portal page*/
+ 
+
+
+.mission{
+background:#ffcc66;
+border: solid 8px #ff9933;
+color:#333333;
+text-align: center;
+padding:8px;
+height:350px;
+} 
+
+.mission p{
+	font-size:16px;
+	font-family: 'Lato', sans-serif;
+}
+
+.about{
+background:#ffff99;
+border: solid 8px #ffff33;
+color:#333333;
+padding:8px;
+letter-spacing: 1px;
+height:350px;
+}
+
+.about h3{
+	text-align: center;
+}
+.about p{
+	font-size: 16px;
+	line-height: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.skills{
+background:#99cc33;
+border: solid 8px #009933;
+color:#333333;
+padding:8px;
+margin-top:2%;
+height:350px;
+
+}
+
+.skills h3{
+	text-align: center;
+}
+
+.skills p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	}
+
+.skills p a{
+text-align:center;
+	color: #003366;
+}
+
+
+.adapt{
+background:#cc99ff;
+border: solid 8px #663399;
+color:#333333;
+padding:8px;
+margin-top:2%;
+height:350px;
+}
+
+.adapt h3{
+	text-align: center;
+}
+
+.adapt p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	}
+
+.adapt p a{
+text-align:center;
+color: #003366;
+}
+
+.folders{
+background:#3399ff;
+border: solid 8px #0000cc;
+color:#333333;
+padding:8px;
+margin-top:2%;
+height:350px;
+}
+
+.folders h3{
+	text-align: center;
+}
+
+.folders p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	}
+
+.folders p a{
+text-align:center;
+color: #003366;
+}
+
+.check{
+background:#ffff99;
+border: solid 8px #ffff33;
+color:#333333;
+padding:8px;
+margin-top:2%;
+height:350px;
+}
+
+.check h3{
+	text-align: center;
+}
+
+.check p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	}
+
+.check p a{
+text-align:center;
+color: #003366;
+}
+
+
+
+
+.test{
+background:#cc99ff;
+border: solid 8px #663399;
+color:#333333;
+padding:8px;
+margin-top:2%;
+height:350px;
+}
+
+.test h3{
+	text-align: center;
+}
+
+.test p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	}
+
+.test p a{
+text-align:center;
+color: #003366;
+}
+
+
+.therewards{
+background:#99cc33;
+border: solid 8px #009933;
+color:#333333;
+padding:8px;
+margin-top:2%;
+height:350px;
+}
+
+.therewards h3{
+	text-align: center;
+}
+
+.therewards p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	}
+
+.therewards p a{
+text-align:center;
+color: #003366;
+}
+
+/*about the blue noodle challenge*/
+
+.bnc{
+background:#ffcc66;
+border: solid 8px #ff9933;
+color:#333333;
+padding:8px;
+margin-top:2%;
+height:350px;
+}
+
+.bnc h3{
+	text-align: center;
+}
+
+.bnc p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	}
+
+.bnc p a{
+text-align:center;
+color: #003366;
+}
+
+
+.bncshare{
+background:#ffff99;
+border: solid 8px #ffff33;
+color:#333333;
+padding:8px;
+margin-top:2%;
+height:350px;
+}
+
+.bncshare h3{
+	text-align: center;
+}
+
+.bncshare p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	}
+
+.bncshare p a{
+text-align:center;
+color: #003366;
+}
+
+
+/*send btn for email*/
+ .send input[type="submit"]{ /*send button for contact us*/
+    width: 120px;
+    height: 120px;
+    background: #ffff99;
+    border: solid 8px #ffff33;
+    border-radius: 50%;
+    color: #333333;
+    font-family: 'Unkempt', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+ 
+.send input[type="submit"]:hover {
+ background:#99cc33;
+ border: solid 7px #009933;
+ }
+/*after a person sends an email*/
+
+ .sent { /*displays your messagae was sent successfully*/
+	width: 300px;
+    background: #ffff99;
+    border: solid 8px #ffff33;
+    color: #333333;
+    font-family: 'Unkempt', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+    padding:2%;
+ 
+}
+	
+#contact{
+background:#3399ff;
+border: solid 8px #0000cc;
+color:#333333;
+padding:8px;
+margin-top:2%;
+text-align: center;
+}
+
+.email{
+	margin-left: 35%;
+	margin-right:35%;
+}
+
+ 
+ 
+  
+ /*contact form submit btn*/
+
  
  .bluecircle{
     width: 475px;
@@ -116,8 +686,8 @@ h3 .bluecircle{
 .orangecircle{
     width: 255px;
     height: 255px;
-    background-color: #ffcc66;
-    border: solid 8px #ff9933;
+    background-color: #cc99ff;
+    border: solid 8px #663399;
     border-radius: 50%;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -151,32 +721,37 @@ h3 .bluecircle{
 	text-align: center;
     z-index: 1;
    color:#333333;
+   font-style: italic;
  }
  
- /*login page*/
+ .panel-heading1 {
+ 	width: 600px;
+    height: 40px;
+    background-color: #cc99ff;
+   color:#333333;
+  	 
+ }
  
- .blueC_login {
-	 width: 475px;
-    height: 475px;
-    background-color: #3399ff;
-    border: solid 10px #0000cc;
-    border-radius: 50%;
-    font-family: 'Unkempt', cursive;
-    font-size: 30px;
-    margin-top: -300px;
-    margin-left: 300px;
-    padding-top:25px;
-    padding-left: 22px;;
-    line-height: 34px;
-   text-align: center;
-   letter-spacing: 2.8px;
-   z-index: 5;
-  }
+ .panel-heading2 {
+ 	 width: 600px;
+    height: 40px;
+    background-color: #ffff99;
+   color:#333333;
 	 
+ }
+ 
+ .panel-heading3 {
+ 	 width: 600px;
+    height: 34px;
+    background-color: #99cc33;
+   color:#333333;
 	 
- 
- 
+ }
 
+.return{
+	margin-top: -2px;
+	margin-right: -20px;
+}
  
  /*fonts: font-family: 'Lato', sans-serif; & font-family: 'Unkempt', cursive;*/
 /* ========== */
@@ -216,6 +791,21 @@ h3 .bluecircle{
 .links p {
 	display: inline;	
 	}
+
+/*scroll bar horizontal*/
+.scroll{
+    padding:2px;
+    border:none;
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+.box{
+    width:220px;
+    height: auto;
+	margin:10px;
+    display:inline-block;
+}
 		
 	
 /* ========== */
@@ -543,15 +1133,47 @@ form{
     display: block;
 }
 
+/*avatar.html*/
+
+[draggable] {
+  cursor: move;
+}
+
+.animalinfo{
+width:220px;
+height:600px;
+background:#ffffcc;
+color:#333333;
+padding-right: 1%;
+font-family:'Unkempt', cursive;
+text-align: center;
+border: solid 6px #333333;
+}
+
+.animalinfo p{
+font-size: 18px;
+font-family:'Unkempt', cursive;
+}
+
+.stage{
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  width: 425px;
+  height: 400px;
+}
+
+
+
+
 
 /* ========== */
 /* = Footer = */
 /* ========== */
 footer {
-  width: 100%;
   font-family: 'Lato', sans-serif;
+  margin-top: 40px;
   height: 57px;
-  padding-top: 37px;
   background: none;
   text-align: center;
   color: #ecf0f1;

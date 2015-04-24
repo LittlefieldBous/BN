@@ -38,8 +38,8 @@
             unset($row['salt']);     
             unset($row['password']); 
             $_SESSION['user'] = $row;  
-            header("Location: index.php"); 
-            die("Redirecting to: index.php"); 
+            header("Location: main.php"); 
+            die("Redirecting to: main.php"); 
         } 
         else{ 
             print("Login Failed."); 
@@ -85,8 +85,7 @@
   <script src="js/modernizr.js"></script>
 
   </head>
-  
-  
+   
   <body id="top-section">
       
     <div id="topnav">
@@ -98,7 +97,7 @@
      	<div class="titlebn">
           <h1>Blue Noodle - Play and Learn!</h1>
 		  <h3> Interactive Learning Curriculum for the 21st Century Child</h3>
-     	</div> <!end of titlebn-->
+     	</div> <!--end of titlebn-->
 		            		 
 	 </header> <!--end of header-->
  
@@ -107,11 +106,11 @@
 	 <div class="row">
 	 <div class="col-lg-3">	
 	 <h4>Our Mission:</h4>
-	 <p>To give all children the</br>
+	 <p>To give all children the<br>
 	 learning advantage!</p>
-	 <p>To develop literacy, numeracy skills</br>& more through fun
+	 <p>To develop literacy, numeracy skills<br>& more through fun
 	 interactive games!</p>
-	 <p><a href="#">Learn more visit</br>our Facebook Page!</a></p> 
+	 <p><a href="#">Learn more visit<br>our Facebook Page!</a></p> 
 	 </div>
 	 </div>
 	 </div>
@@ -121,15 +120,15 @@
 <div class="blueClogin">
    <div class="row">
 		<div class="col-lg-6">	
-		<h3>Blue Noodle</br>Member Login</h3>									
+		<h3>Blue Noodle<br>Member Login</h3>									
 				<div id="formbox">
 		<form action="login.php" method="post"> 
-                    Username:<br /> 
-                    <input type="text" name="username" value=""<?php echo $submitted_username; ?>" placeholder="Username" /> 
-                    <br/>
-                    Password:<br /> 
+                    Username:<br> 
+                    <input type="text" name="username" value="" "<?php echo $submitted_username; ?>" placeholder="Username" /> 
+                    <br>
+                    Password:<br> 
                     <input type="password" name="password" value="" placeholder="Password"/> 
-                    <br/><br/> 
+                    <br><br> 
                     <input type="submit" class="btn btn-warning" value="LogIN"/> 
                 </form>				
 				</div> <!--end of form box--> 
@@ -145,10 +144,9 @@
 	 <div class="purplecircle">
 	 <div class="row">
 	 <div class="col-lg-3">	
-	 <h3>C'mon In!</br>Get Ready to...</h3>
-	 <p>Discover!</p>
-	 <p>Invent</p>
-	 <p>Have Fun!</p>
+	 <h3>C'mon In!<br>Get Ready to...</h3>
+	 <p>Discover!<br>Invent
+	 <br>Have Fun!</p>
 	 </div>
 	 </div>
 	 </div>
@@ -169,8 +167,8 @@
 		</div>
 	
 	
-		 </br>
-		 </br>
+		 <br>
+		 <br>
 		  <p><a href="#">&copy; bluenoodle.org</a></p>	
 	   </div>
 	</footer>
@@ -191,18 +189,13 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-
 <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
-<!-- plugins -->
-<!-- main -->
+
 
 <!--for animation tags-->
 <script type="text/javascript" src="js/Animate.js"></script>
 <!--audio-->
 
  
-
-
-
   </body>
 </html>

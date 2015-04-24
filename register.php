@@ -79,10 +79,6 @@
     } 
 ?>
 
-<!-- Author: Michael Milstead / Mode87.com
-     for Untame.net
-     Bootstrap Tutorial, 2013
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -117,22 +113,6 @@
   <script type="text/javascript" src="js/tweenjs-0.5.0.min.js"></script>
  <!--modernizer-->
   <script src="js/modernizr.js"></script>
-
-<!--style for login-->
-    <!<style type="text/css">
-        <!--body { background: url(assets/bglight.png); }
-        .hero-unit { background-color: #fff; }
-        .center { display: block; margin: 0 auto; }
-    </style>-->
-
-<!--audio-->
-<script language="javascript" type="text/javascript">
-function playSound(soundfile) {
-  document.getElementById("dummy").innerHTML=
-    "<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
-}
-</script><!--end of audio-->
-
   </head>
   
   
@@ -141,14 +121,14 @@ function playSound(soundfile) {
     <div id="topnav">
     <div class="container">
     
-    <a class="brand" href="#top-section"><img src="images/logo.png" alt=""></a>
+    <a class="brand" href="#top-section"><img src="images/logo.png" alt="logo"></a>
      
  <header>
      	<div class="titlebn">
           <h1>Blue Noodle - Play and Learn!</h1>
 		  <h3> Interactive Learning Curriculum for the 21st Century Child</h3>
-     	</div> <!end of titlebn-->
- </br>		
+     	</div> <!--end of titlebn-->
+ <br>		
 
 	 </header> <!--end of header-->
 	 
@@ -157,11 +137,11 @@ function playSound(soundfile) {
 	 <div class="row">
 	 <div class="col-lg-3">	
 	 <h4>Our Mission:</h4>
-	 <p>To give all children the</br>
+	 <p>To give all children the<br>
 	 learning advantage!</p>
-	 <p>To develop literacy, numeracy skills</br>& more through fun
+	 <p>To develop literacy, numeracy skills<br>& more through fun
 	 interactive games!</p>
-	 <p><a href="#">Learn more visit</br>our Facebook Page!</a></p> 
+	 <p><a href="#">Learn more visit<br>our Facebook Page!</a></p> 
 	 </div>
 	 </div>
 	 </div>
@@ -172,12 +152,12 @@ function playSound(soundfile) {
    <div class="row">
 		<div class="col-lg-6">	
 		<div id="formbox">
-		<h3>Sign Up!</br>For a FREE 30 Day Trial!</h3>		
+		<h3>Sign Up!<br>For a FREE 30 Day Trial!</h3>		
 	<form action="register.php" method="post"> 
-    <input type="text" name="username" value="Enter an Imaginary Username."/></br> 
-    <input type="text" name="email" value="Please Enter Parent Email"/></br> 
-    <input type="password" name="password" value="" Placeholder ="Create a password"/></br>
-    <p><a href="#">Or Become a Blue Noodle Member Today!</a></p>
+    <input type="text" name="username" value="Enter an Imaginary Username."/><br> 
+    <input type="text" name="email" value="Please Enter Parent Email"/><br> 
+    <input type="password" name="password" value="" Placeholder ="Create a password"/><br>
+    <p><a href="member.php">Or Become a Blue Noodle Member Today!</a></p>
     <input type="submit" class="btn btn-success" value="Sign UP!" /> 
 </form>
 		</div> <!--end of formbox-->
@@ -195,7 +175,7 @@ function playSound(soundfile) {
 	 <div class="yellowcircle">
 	 <div class="row">
 	 <div class="col-lg-3">	
-	 <h3><i>FREE</br>MEMBERSHIP</br>FOR</br>TEACHERS &</br>SCHOOLS<i></h3>
+	 <h3>FREE<br>MEMBERSHIP<br>FOR<br>TEACHERS &<br>SCHOOLS</h3>
 	 </div>
 	 </div>
 	 </div>
@@ -204,9 +184,7 @@ function playSound(soundfile) {
  
    </div> <!--container-->
       </div> <!--topnav-->
-		
-
-
+	
 
 	<footer>
 	<div class="span12 footer">
@@ -220,8 +198,8 @@ function playSound(soundfile) {
 		</div>
 	
 	
-		 </br>
-		 </br>
+		 <br>
+		 <br>
 		  <p><a href="#">&copy; bluenoodle.org</a></p>	
 	   </div>
 	</footer>
